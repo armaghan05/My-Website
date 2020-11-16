@@ -1,0 +1,147 @@
+body {
+       color: #40514E; margin: 0;
+       text-align: center;
+       font-family: font-family: 'Lato', sans-serif;
+       font-weight: normal;
+}
+h1 { font-size: 3rem;  /* as 16px is equal to 100%, for 90px, we need {}(90/16)*100}=562.5. but we use only 500% as it looks better */
+     margin-top: 0 auto 0 auto;
+     font-family: 'Sacramento', cursive;
+     padding-top: 50px;
+     color: #79b372;
+
+}
+
+h2 { font-family: Lato, sans-serif;
+    font-size: 1.5rem;
+    color: #66BFBF; font-weight: normal;
+}
+
+h3 { font-family: 'Lora', serif; color: #11999E;
+
+}
+a { color: #11999E; }
+
+p {margin: 10px;
+line-height: 1.5;}
+
+h2:hover {  font-weight: 900; }
+
+.hover:hover {font-weight: bold;}
+
+.firstheading {margin: auto auto auto auto}
+
+.pro { text-decoration: underline; }
+
+.top-cloud { position: absolute; /*absolute is used for enabling overlapping */
+            right: 100px; top: 200px;
+            width: 35%; height: auto; opacity: 20%;
+            -webkit-transform: scaleX(-1); /*code to flip image */
+            transform: scaleX(-1);
+}
+
+.CVpic { position: relative;
+         left: 550px;
+         bottom:285px;
+
+        /Users/syedarmaghanhassan/Documents/HTML Website lernen/website2/images/galaxyview.png
+         width:10%;
+}
+.bottom-cloud { position: absolute;
+              left: 300px; bottom: 300px;
+              width: 20%; height: auto; opacity: 40%;
+
+}
+
+
+.mountain { position: relative;
+             width: 35%;
+}
+
+.top-container {
+
+    background-color: #eaede6;
+    width: 100%;
+}
+
+.middle-container {
+
+}
+
+.skill-row { width:50%; margin: 100px auto 100px auto;
+            text-align: left;
+}
+.wings {float: left;
+        margin-right: 30px;
+        width: 20rem; height: auto;
+}
+
+.guitar {float: right;
+        margin-left: 30px;
+        width: 20rem; height: auto;
+}
+
+.wingstext {text-align: justify;
+            padding: 1rem;
+}
+
+.guitartext {text-align: justify;
+            pading: 1rem;
+}
+
+.bottom-container {
+}
+
+
+.btn {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   height: 3px;
+   line-height: 3px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   width: 140px;
+   font-size: 20px;
+   font-weight: 200;
+   padding: 20px;
+   -webkit-box-shadow: inset -2px 1px 71px 0 #000000;
+   -moz-box-shadow: inset -2px 1px 71px 0 #000000;
+   box-shadow: inset -2px 1px 71px 0 #000000;
+   text-shadow: 0 0 20px #000000;
+   border: solid #99C624 4px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #99C624 7px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   text-decoration: none;
+}
+
+hr {
+    border-top-style: dotted;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-color: rgb(132, 243, 107);
+    border-width: 8px;
+    width: 4%;
+}
