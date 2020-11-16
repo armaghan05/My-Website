@@ -144,7 +144,7 @@ hr {
     border-color: rgb(132, 243, 107);
     border-width: 11px;
     width: 8%;
-    border-radius: 100%;
+    padding: 10px auto;
 }
 
 .copyright {
