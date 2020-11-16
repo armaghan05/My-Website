@@ -33,35 +33,34 @@ h2:hover {  font-weight: 900; }
 
 .pro { text-decoration: underline; }
 
-.top-cloud { position: absolute; /*absolute is used for enabling overlapping */
-            right: 100px; top: 200px;
+.top-cloud { position: relative; /*absolute is used for enabling overlapping */
+            left: 300px; top: 400px;
             width: 35%; height: auto; opacity: 20%;
             -webkit-transform: scaleX(-1); /*code to flip image */
             transform: scaleX(-1);
-}
+            z-index: 3;          }
 
 .CVpic { position: relative;
-         left: 550px;
-         bottom:285px;
+         left: 700px;
+         bottom:325px;
 
         /Users/syedarmaghanhassan/Documents/HTML Website lernen/website2/images/galaxyview.png
-         width:10%;
-}
-.bottom-cloud { position: absolute;
-              left: 300px; bottom: 300px;
+         width:10%;          }
+
+.bottom-cloud { position: relative;
+              left: 10px; bottom: 100px;
               width: 20%; height: auto; opacity: 40%;
-
-}
-
+              z-index: 2}
 
 .mountain { position: relative;
+            right: 200px;
              width: 35%;
 }
 
 .top-container {
-
     background-color: #eaede6;
     width: 100%;
+    align-self: baseline;
 }
 
 .middle-container {
