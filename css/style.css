@@ -107,7 +107,7 @@ h2:hover {  font-weight: 900; }
    line-height: 3px;
    color: #FFFFFF;
    font-family: Open Sans;
-   width: 140px;
+   width: auto;
    font-size: 20px;
    font-weight: 200;
    padding: 20px;
@@ -144,6 +144,7 @@ hr {
     border-color: rgb(132, 243, 107);
     border-width: 11px;
     width: 8%;
+    border-radius: 100%;
 }
 
 .copyright {
