@@ -3,18 +3,18 @@ body {
        text-align: center;
        font-family: font-family: 'Lato', sans-serif;
        font-weight: normal;
+       margin: 0; padding: 0;
 }
 h1 { font-size: 3rem;  /* as 16px is equal to 100%, for 90px, we need {}(90/16)*100}=562.5. but we use only 500% as it looks better */
-     margin-top: 0 auto 0 auto;
+     margin: 0 ; padding: 0;
      font-family: 'Sacramento', cursive;
-     padding-top: 50px;
      color: #79b372;
 
 }
 
 h2 { font-family: Lato, sans-serif;
-    font-size: 1.5rem;
-    color: #66BFBF; font-weight: normal;
+    font-size: 1.5rem;     color: #66BFBF;
+    font-weight: normal; margin: 5px;
 }
 
 h3 { font-family: 'Lora', serif; color: #11999E;
@@ -29,12 +29,13 @@ h2:hover {  font-weight: 900; }
 
 .hover:hover {font-weight: bold;}
 
-.firstheading {margin: auto auto auto auto}
+.firstheading {
+}
 
 .pro { text-decoration: underline; }
 
 .top-cloud { position: relative; /*absolute is used for enabling overlapping */
-            left: 300px; top: 400px;
+            left: 300px; top: 300px;
             width: 35%; height: auto; opacity: 20%;
             -webkit-transform: scaleX(-1); /*code to flip image */
             transform: scaleX(-1);
@@ -42,7 +43,7 @@ h2:hover {  font-weight: 900; }
 
 .CVpic { position: relative;
          left: 700px;
-         bottom:325px;
+         bottom:325px; padding: 0; margin: 0;
 
         /Users/syedarmaghanhassan/Documents/HTML Website lernen/website2/images/galaxyview.png
          width:10%;          }
@@ -57,10 +58,10 @@ h2:hover {  font-weight: 900; }
              width: 35%;
 }
 
-.top-container {
+.top-container { margin: 0; padding: 0;
     background-color: #eaede6;
     width: 100%;
-    align-self: baseline;
+
 }
 
 .middle-container {
@@ -141,6 +142,10 @@ hr {
     border-left-style: none;
     border-right-style: none;
     border-color: rgb(132, 243, 107);
-    border-width: 15px;
-    width: 7%;
+    border-width: 11px;
+    width: 8%;
+}
+
+.copyright {
+            font-size: 70%; padding: 10px;
 }
